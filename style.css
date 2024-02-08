@@ -1,0 +1,175 @@
+.search_bar>input{
+    border:none;
+    width: 90%;
+    background-color: transparent;
+}
+.search_bar{
+    border: 1px solid lightgray;
+    width:40%;
+    border-radius: 5px;
+    background-color: rgb(248,248,248);
+}
+.vertical_bar{
+    height: 80px;
+    border: 1px solid rgba(0, 0, 0, 0.04);
+}
+.cart{
+    font-family: 'Protest Riot', sans-serif;
+    border-radius: 10px;
+    background-color: (12,131,31);
+    height: 80%;
+}
+.my_cards{
+    width: 85%;
+    overflow-x: scroll;
+    margin: auto;
+}
+.my_list{
+    white-space: nowrap;
+}
+.my_list>img{
+    display: inline-block;
+    padding: 10px;
+}
+#category_section{
+    width: 85%;
+    margin: auto;
+}
+.Dairy{
+    width: 85%;
+    margin: auto;
+}
+.category_bar{
+    width: 85%;
+    margin: auto;
+    overflow-x: scroll;
+    
+}
+.my_card{
+    display: inline-block !important;
+    padding: 10px;
+    width: 200px;
+}
+.card_timer{
+    font-size: 10px;
+    font-weight:700;
+    background-color: rgb(248,248,230);
+    width: fit-content;
+    border-radius: 6px;
+    padding:0px;
+}
+.card_weight{
+    font-size: 13px;
+    color: rgb(136,102,136);
+}
+.card_price{
+    font-weight: 700;
+    font-size: 12px;
+}
+.card_heading{
+font-weight: 500;
+}
+.btnn{
+    border-radius: 6px;
+    color: rgb(87,143,81);
+    padding: 4px;
+    border: 2px solid rgb(87,143,81);
+}
+footer{
+    width: 85%;
+    margin: auto;
+}
+.footer_row3{
+    width: 90%;
+    margin: auto;
+    color: rgb(140,140,140);
+}
+.element1{
+    padding-right: 10px;
+    justify-content: flex-start;
+    align-items: center;
+    flex-wrap: wrap;
+    width: 30%;
+    height: 100%;
+    color: rgb(157,157,157);
+}
+.footer_row2{
+justify-content: space-between;
+
+}
+.element2{
+    display: flex;
+    width: 30%;
+}
+.element2>p{
+    font-family: Okra;
+    font-weight: 700;
+    font-size: 15px;
+    align-items: center;
+}
+.element2>img{
+padding-left: 5px;
+}  
+.social{
+    width: auto;
+}
+.social>a{
+    padding: 12px;
+}
+.social>a>i{
+    font-size: 35px;
+    color: rgb(31,31,31);
+}
+ul{
+    list-style: none;
+    
+}
+.link_list>a{
+    text-decoration: none;
+}
+.link_list>a>li{
+    color: rgb(179,179,179);
+    padding-bottom: 2px;
+}
+.footer_row1{
+    display: flex;
+    flex-wrap: nowrap;
+}
+.table1{
+    display: flex;
+    width: 40%;
+    justify-content:left;
+}
+.table2{
+    display: flex;
+    width: auto;
+}
+.link_list{
+     margin-right:50px;
+}
+.sell_all{
+    border: none;
+    color: rgb(30,140,48);
+    background-color: white;
+}
+.foot_head{
+    font-family: Okra;
+    font-weight: 600;
+    color: rgb(0, 0, 0);
+    font-size: 18px;
+    margin: 24px 0px;
+}
+@media screen and(max-width:500px)
+{
+    nav{
+        flex-direction: column;
+        padding: 10px;
+    }
+    #hero_section{
+        
+        display: none !important;
+    }
+    .vertical_bar{
+        display: none;
+    }
+}
